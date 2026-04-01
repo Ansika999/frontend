@@ -1,5 +1,7 @@
 {
-  "routes": [
-    { "src": "/(.*)", "dest": "/" }
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
