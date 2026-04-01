@@ -8,7 +8,6 @@ const Login = () => <div style={{padding:"2rem"}}><h1>Login</h1></div>;
 const Transactions = () => <div style={{padding:"2rem"}}><h1>Transactions</h1></div>;
 const Reports = () => <div style={{padding:"2rem"}}><h1>Reports</h1></div>;
 const NotFound = () => <div style={{padding:"2rem"}}><h1>404 - Page Not Found</h1></div>;
-
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
