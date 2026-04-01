@@ -1,9 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "react-hot-toast";
-
 const queryClient = new QueryClient();
-
 // Placeholder pages — replace with your actual page components
 const Dashboard = () => <div style={{padding:"2rem"}}><h1>Dashboard</h1></div>;
 const Login = () => <div style={{padding:"2rem"}}><h1>Login</h1></div>;
