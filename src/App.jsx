@@ -1,6 +1,8 @@
 function App() {
   return (
-    <h1>Hello Vite + React 🚀</h1>
+    <h1 style={{ textAlign: "center", marginTop: "50px" }}>
+      🚀 My App is Working!
+    </h1>
   )
 }
 
